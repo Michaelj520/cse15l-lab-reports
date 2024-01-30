@@ -7,8 +7,8 @@
 
 ![Image](15L LR1 - 1.png)
 1. When this command was run, the working directory is home. 
-2. I got this output because `cd` is used to change directory, but I didn't provide an argument to make the change. Thus, there was no output and no change was made. 
-3. The output is not an error. 
+2. I got this output because `cd` is used to change directory. When no argument is passed, it will change to the home directory. However, since I am already in the home directory, no output and change were made. 
+4. The output is not an error. 
 
 ---
 
@@ -65,7 +65,7 @@
 ![Image](15L LR1 - 8.png)
 1. When this command was run, the working directory is lecture1.
 2. I got this output because `cat` is used to print the content of files, not directories.
-3. The output is not an error.
+3. The output is an error, as it tells me that the argument is not the right form because `cat` doesn't work with directories. 
 
 ---
 
