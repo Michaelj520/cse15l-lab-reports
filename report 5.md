@@ -47,14 +47,42 @@ being present in the file `outputResults`.
 
 *Step 4* Supporting Information 
 
+*File & Directory Structure*
+
+![Image](15L report 5 s5.png)
+This file and directory structure is from the code in class. I made some edits in grade.sh. 
+
+*Contents of each file before fixing the bug*
+
+![Image](15L report 5 s1.png)
+![Image](15L report 5 s6.png)
+![Image](15L report 5 s7.png)
+![Image](15L report 5 s8.png)
+![Image](15L report 5 s9.png)
+
+
+*Command line ran to trigger the bug*
+
+`bash grade.sh`
+
+
+
+*Description of edition*
+
+In the file grade.sh, on line 36, add `$` sign before the "SUCCESS" variable inside the if statement. 
+This fix makes the if statement looks for whether the variable SUCCESS is empty or not, which fulfills the logic of the code. 
+
 
 
 ---
 
-
 ## Part 2 Reflection 
 
 
+I have learned many useful and valuable things from the lab experience during the second half of the quarter. I learned how to use bash, which is probably like the third programming language I know.
+I also learned how to use the terminal/command line completely by itself. In the past, I always need to rely on apps like VisualStudio code, but now I can really handle files and do things via
+the terminal alone. Also, I learned how to interact with git files, and use commands like git add and git push. I have learned a lot from the amazing tutors like Yasushi. I believe that 
+CSE15L really made me more confident as a programmer. 
 
 
 
